@@ -15,7 +15,6 @@ export class HomePage {
   ionViewDidLeave() {
     this.menu.swipeEnable(true);
   }
-
   login() {
     this.navCtrl.setRoot("CategoriasPage");
   }
